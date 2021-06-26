@@ -1,9 +1,12 @@
 import React from 'react'
+import Button from './Button'
 
 export const App = () => {
   return (
     <div>
-      CodeRoad APP
+      <Button
+        label={'Click me!'}
+      />
     </div>
   )
 }
