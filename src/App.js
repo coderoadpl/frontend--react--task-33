@@ -5,7 +5,7 @@ export const App = () => {
   return (
     <div>
       <Button
-        label={'Click me!'}
+        label={<span><b>Click</b> me</span>}
       />
     </div>
   )
