@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 export const Button = (props) => {
   const {
-    label,
+    children,
     ...otherProps
   } = props
 
@@ -11,13 +11,13 @@ export const Button = (props) => {
     <button
       {...otherProps}
     >
-      {label}
+      {children}
     </button>
   )
 }
 
 Button.propTypes = {
-  label: PropTypes.node.isRequired
+  children: PropTypes.node
 }
 
 export default Button

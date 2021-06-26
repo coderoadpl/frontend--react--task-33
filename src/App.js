@@ -4,9 +4,11 @@ import Button from './Button'
 export const App = () => {
   return (
     <div>
-      <Button
-        label={<span><b>Click</b> me</span>}
-      />
+      <Button>
+        <span>
+          <b>Click</b> me
+        </span>
+      </Button>
     </div>
   )
 }
