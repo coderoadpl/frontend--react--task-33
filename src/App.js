@@ -4,7 +4,9 @@ import Button from './Button'
 export const App = () => {
   return (
     <div>
-      <Button>
+      <Button
+        showChildren={false}
+      >
         <span>
           <b>Click</b> me
         </span>
